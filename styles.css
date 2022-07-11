@@ -12,3 +12,8 @@
     height: 8px;
     border: 1px solid blue;
 }
+
+.content.active {
+    background: red;
+}
+
