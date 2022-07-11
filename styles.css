@@ -1,5 +1,14 @@
 .main {
     display: flex;
     align-self: center;
-    
+    justify-self: center;
+    width: 160px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content {
+    width: 8px;
+    height: 8px;
+    border: 1px solid blue;
 }
