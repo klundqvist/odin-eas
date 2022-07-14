@@ -27,7 +27,7 @@ setBtn.addEventListener("click", function(){
         }
         else{
             console.log(fidelity);
-            document.querySelectorAll(".content").forEach(content => {content.style.width = fidelity/9.6});
+            content.forEach(element => {element.style.width = parseInt(fidelity)/9.6+'px'}, console.log('hello'));
             }
             
     } )
