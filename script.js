@@ -1,5 +1,3 @@
-
-
 const mainContainer = document.querySelector('#main');
 const setBtn = document.querySelector('#setBtn');
 var fidelity = 64;
@@ -24,7 +22,6 @@ function makeGrid(fidelity){
     }
 }
 
-
 setBtn.addEventListener("click", function(){
     let fidelity = parseInt(prompt("Enter a number between 1 and 100", "64"));
         if(fidelity < 1 || fidelity > 100 || fidelity == NaN){
@@ -35,13 +32,8 @@ setBtn.addEventListener("click", function(){
             while (mainContainer.firstChild){
                 mainContainer.removeChild(mainContainer.lastChild);
             }
-
-
-            console.log(fidelity);
             makeGrid(fidelity);
-            console.log(typeof(fidelity));
             }
-            
     } )
 
 
