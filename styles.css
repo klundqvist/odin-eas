@@ -22,7 +22,7 @@
 }
 
 .content.active {
-    background: red;
+    background: rgb(141, 66, 66);
 }
 
 .setBtn {
